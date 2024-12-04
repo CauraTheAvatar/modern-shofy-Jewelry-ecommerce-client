@@ -101,10 +101,6 @@ To get started with Shofy, follow these steps:
 
 [Shofy Client Side Live Link](https://shofy-jewelry-ecommerce.vercel.app)
 
-## Server Side Live Link
-
-[Shofy Server Side Live Link](https://shofy-backend.vercel.app)
-
 ## Client Side Repo
 
 [Shofy Client Side Repo](https://github.com/lucatosc/shofy-Jewelry-ecommerce-client.git)
