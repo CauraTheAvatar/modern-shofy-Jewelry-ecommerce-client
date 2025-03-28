@@ -2,10 +2,10 @@ import React from 'react';
 import Link from 'next/link';
 // internal
 import { ArrowRightLong } from '@/svg';
-import banner_bg_1 from '@assets/img/banner/4/banner-1.jpg';
-import banner_bg_2 from '@assets/img/banner/4/banner-2.jpg';
-import banner_bg_3 from '@assets/img/banner/4/banner-3.jpg';
-import banner_bg_4 from '@assets/img/banner/4/banner-4.jpg';
+import banner_bg_1 from '@assets/img/banner/4/fresh-harvest-garlic.png';
+import banner_bg_2 from '@assets/img/banner/4/seasonal-favourites-resized.png';
+import banner_bg_3 from '@assets/img/banner/4/goat-cheese_resized.png';
+import banner_bg_4 from '@assets/img/banner/4/hibiscus-resized.jpg';
 
 // BannerItem
 function BannerItem({ cls, bg_clr, bg, content, title,isBtn=false}) {
@@ -38,15 +38,15 @@ const JewelryShopBanner = () => {
             <div className="col-xl-6 col-lg-7">
               <div className="row">
                 <div className="col-xl-12">
-                  <BannerItem cls="mb-25" bg_clr="F3F7FF" bg={banner_bg_1} content="Collection" 
-                  title={<>Ardeco pearl <br /> Rings style 2023</>} isBtn={true} />
+                  <BannerItem cls="mb-25" bg_clr="F3F7FF" bg={banner_bg_1} content="FRESH" 
+                  title={<>HARVEST PICKS <br /> For Namibia, By Namibia</>} isBtn={true} />
                 </div>
                 <div className="col-md-6 col-sm-6">
-                <BannerItem cls="has-green sm-banner" bg_clr="F0F6EF" bg={banner_bg_2} content="Trending" title="Tropical Set" />
+                <BannerItem cls="has-brown sm-banner" bg_clr="F8F1E6" bg={banner_bg_2} content="OHHH LEKKER!!!" title="SEASONAL FAVOURITES" />
   
                 </div>
                 <div className="col-md-6 col-sm-6">
-                <BannerItem cls="has-brown sm-banner" bg_clr="F8F1E6" bg={banner_bg_3} content="New Arrival" title="Gold Jewelry" />
+                <BannerItem cls="has-green sm-banner" bg_clr="F0F6EF" bg={banner_bg_3} content="FARM-FRESH" title="DAIRY PRODUCTS" />
                 </div>
               </div>
             </div>
@@ -55,9 +55,9 @@ const JewelryShopBanner = () => {
                 <div className="tp-banner-full-thumb include-bg black-bg transition-3" 
                 style={{backgroundImage:`url(${banner_bg_4.src})`}}></div>
                 <div className="tp-banner-full-content">
-                  <span>Collection</span>
+                  <span>Premium</span>
                   <h3 className="tp-banner-full-title">
-                    <Link href="/shop">Ring gold with <br /> diamonds</Link>
+                    <Link href="/shop">Hibiscus<br /> Flowers</Link>
                   </h3>
                   <div className="tp-banner-full-btn">
                     <Link href="/shop" className="tp-btn tp-btn-border">

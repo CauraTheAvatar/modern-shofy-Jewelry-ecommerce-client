@@ -17,7 +17,7 @@ const MyOrders = ({ orderData }) => {
                 style={{ fontSize: "30px" }}
                 className="fa-solid fa-cart-circle-xmark"
               ></i>
-              <p>You Have no order Yet!</p>
+              <p>You Have no order yet!</p>
             </div>
           </div>
         ))}

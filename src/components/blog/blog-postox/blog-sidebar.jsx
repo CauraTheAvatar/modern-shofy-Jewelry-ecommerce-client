@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 // internal
-import user from '@assets/img/users/user-11.jpg';
+import user from '@assets/img/users/Submark Logo.png';
 import signature from '@assets/img/blog/signature/signature.png';
 import { Search } from '@/svg';
 import blogData from '@/data/blog-data';
@@ -29,7 +29,7 @@ const BlogSidebar = () => {
 
         {/* about  */}
         <div className="tp-sidebar-widget mb-35">
-          <h3 className="tp-sidebar-widget-title">About me</h3>
+          <h3 className="tp-sidebar-widget-title">About Us</h3>
           <div className="tp-sidebar-widget-content">
             <div className="tp-sidebar-about">
               <div className="tp-sidebar-about-thumb mb-25">
@@ -39,10 +39,11 @@ const BlogSidebar = () => {
               </div>
               <div className="tp-sidebar-about-content">
                 <h3 className="tp-sidebar-about-title">
-                  <a href="#">Ravi {"O'Leigh"}</a>
+                  <a href="#"> {"AgriSync"}</a>
                 </h3>
-                <span className="tp-sidebar-about-designation">Photographer & Blogger</span>
-                <p>Lorem ligula eget dolor. Aenean massa. Cum sociis que penatibus magnis dis parturient</p>
+                <span className="tp-sidebar-about-designation">Meet Our Team</span>
+                <p>Conceicao, Gareth, Moses, and Theodore <br/> Dedicated problem solvers committed to connecting small-scale farmers with local and international buyers. 
+                  <br/>Together, we bring expertise, innovation, and a shared passion for empowering communities through agriculture.</p>
                 <div className="tp-sidebar-about-signature">
                   <Image src={signature} alt="signature" />
                 </div>
@@ -54,7 +55,7 @@ const BlogSidebar = () => {
 
         {/* <!-- latest post start --> */}
         <div className="tp-sidebar-widget mb-35">
-          <h3 className="tp-sidebar-widget-title">Latest Posts</h3>
+          <h3 className="tp-sidebar-widget-title">Previous Posts</h3>
           <div className="tp-sidebar-widget-content">
             <div className="tp-sidebar-blog-item-wrapper">
               {latest_post.map(b => (

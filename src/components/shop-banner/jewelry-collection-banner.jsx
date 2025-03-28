@@ -2,9 +2,9 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 //internal
-import thumb_bg from '@assets/img/product/collection/4/collection-1.jpg';
+import thumb_bg from '@assets/img/product/collection/4/vellies.png';
 import side_text from '@assets/img/product/collection/4/side-text.png';
-import collection_sm from '@assets/img/product/collection/4/collection-sm-1.jpg';
+import collection_sm from '@assets/img/product/collection/4/marula-oil.jpg';
 import { ArrowRightSm, PlusTwo } from '@/svg';
 
 const JewelryCollectionBanner = () => {
@@ -26,20 +26,20 @@ const JewelryCollectionBanner = () => {
                       <PlusTwo />
                     </span>
                     <div className="tp-collection-hotspot-content">
-                      <h3 className="tp-collection-hotspot-title">Skincare Product</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur.</p>
+                      <h3 className="tp-collection-hotspot-title">Shilongo Leather Works: Shop</h3>
+                      <p>Crafts and exports genuine kudu leather goods using locally-sourced materials.</p>
                     </div>
                   </div>
-
+{/* 
                   <div className="tp-collection-hotspot-item tp-collection-hotspot-2">
                     <span className="tp-hotspot tp-pulse-border ">
                       <PlusTwo />
                     </span>
                     <div className="tp-collection-hotspot-content on-top">
-                      <h3 className="tp-collection-hotspot-title">Skincare Product</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur.</p>
+                      <h3 className="tp-collection-hotspot-title">Pure Marula</h3>
+                      <p>Uses locally-sourced marula nuts to produce and export premium cosmetic oils.</p>
                     </div>
-                  </div>
+                  </div> */}
 
                 </div>
               </div>
@@ -49,10 +49,23 @@ const JewelryCollectionBanner = () => {
                   <span className="tp-collection-side-text">
                     <Image src={side_text} alt="text img" />
                   </span>
+
+
                   <div className="row justify-content-center">
                     <div className="col-xl-6 col-lg-8">
                       <div className="tp-collection-item-4 text-center">
-                        <span className="tp-collection-subtitle-4">BUILD YOUR OWN SETS</span>
+                                          
+                        <div className="tp-collection-hotspot-item tp-collection-hotspot-2">
+                          <span className="tp-hotspot tp-pulse-border ">
+                            <PlusTwo />
+                          </span>
+                          <div className="tp-collection-hotspot-content on-top">
+                            <h3 className="tp-collection-hotspot-title">Pure Marula</h3>
+                            <p>Uses locally-sourced marula nuts to produce and export premium cosmetic oils.</p>
+                          </div>
+                        </div>
+
+                        <span className="tp-collection-subtitle-4">FROM FARM PRODUCE <br />TO <br />FINISHED PRODUCT</span>
                         <div className="tp-collection-thumb-banner-4 m-img">
                           <Link href="/shop">
                             <Image src={collection_sm} alt="collection_sm img" />
@@ -60,11 +73,11 @@ const JewelryCollectionBanner = () => {
                         </div>
                         <div className="tp-collection-content-4">
                           <h3 className="tp-collection-title-4">
-                            <Link href="/shop">Our finest jewelry</Link>
+                            <Link href="/shop">Pure  <br />Marula</Link>
                           </h3>
                           <div className="tp-collection-btn-4">
                             <Link href="/shop" className="tp-link-btn-line-2">
-                              Shop this collection {" "} <ArrowRightSm />
+                              View Similar Products {" "} <ArrowRightSm />
                             </Link>
                           </div>
                         </div>

@@ -54,7 +54,7 @@ const RegisterForm = () => {
               id="name"
               name="name"
               type="text"
-              placeholder="Shahnewaz Sakil"
+              placeholder="Avatar Caura"
             />
           </div>
           <div className="tp-login-input-title">
@@ -69,7 +69,7 @@ const RegisterForm = () => {
               id="email"
               name="email"
               type="email"
-              placeholder="shofy@mail.com"
+              placeholder="farmersconnect@mail.com"
             />
           </div>
           <div className="tp-login-input-title">
@@ -85,7 +85,7 @@ const RegisterForm = () => {
                 id="password"
                 name="password"
                 type={showPass ? "text" : "password"}
-                placeholder="Min. 6 character"
+                placeholder="Min. 6 character with at least 1 special character"
               />
             </div>
             <div className="tp-login-input-eye" id="password-show-toggle">

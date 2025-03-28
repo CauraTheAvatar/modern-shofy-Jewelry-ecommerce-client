@@ -27,10 +27,18 @@ const HeaderSearchForm = () => {
           <NiceSelect
             options={[
               { value: "Select Category", text: "Select Category" },
-              { value: "electronics", text: "electronics" },
-              { value: "fashion", text: "fashion" },
-              { value: "beauty", text: "beauty" },
-              { value: "jewelry", text: "jewelry" },
+              { value: "Fresh Produce", text: "Fresh Produce" },
+              { value: "Grains & Cereals", text: "Grains & Cereals" },
+              { value: "Natural & Organic Products", text: "Natural & Organic Products" },
+              { value: "Seeds, Plants & Saplings", text: "Seeds, Plants & Saplings" },
+              { value: "Processed & Packaged Goods", text: "Processed & Packaged Goods" },
+              { value: "Agricultural Supplies", text: "Agricultural Supplies" },
+              { value: "Nuts & Oilseeds", text: "Nuts & Oilseeds" },
+              { value: "Handmade & Craft Products", text: "Handmade & Craft Products" },
+              { value: "Animal By-products", text: "Animal By-products" },
+              { value: "Aquaculture Products", text: "Aquaculture Products" },
+              { value: "Wellness & Beauty", text: "Wellness & Beauty" },
+              { value: " Bulk & Wholesale", text: " Bulk & Wholesale" },
             ]}
             defaultCurrent={0}
             onChange={selectCategoryHandle}

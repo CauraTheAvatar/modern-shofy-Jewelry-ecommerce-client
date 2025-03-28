@@ -8,23 +8,23 @@ const comment_data = [
   {
     id: 1,
     user: user_1,
-    name: 'Lance Bogrol',
-    date: '12 April, 2023 at 3.50pm',
-    desc: 'By defining and following internal and external processes, your team will have clarity on resources to  attract and retain customers for your business.',
-    children:{
+    name: 'Peter Amadhila',
+    date: '12 March, 2025 at 2.30pm',
+    desc: 'By connecting small-scale farmers to local and international buyers, our platform helps ensure fresh Namibian produce reaches more tables while supporting local agriculture.',
+    children: {
       user: user_2,
-      name: 'Dasy Lily',
-      date: '15 April, 2023 at 5.50pm',
-      desc: 'By defining and following internal and external processes, your team will have clarity on resources to  attract and retain customers for your business.',
+      name: 'Moses Tjiroze',
+      date: '14 March, 2025 at 4.15pm',
+      desc: 'This platform is a game-changer for farmers—simplifying the sales process and opening up access to new markets while ensuring fair pricing.',
     }
   },
   {
     id: 2,
     user: user_3,
-    name: 'Shahnewaz Sakil',
-    date: '20 April, 2023 at 3.50pm',
-    desc: 'By defining and following internal and external processes, your team will have clarity on resources to  attract and retain customers for your business.',
-  },
+    name: 'Etuna Kapenda',
+    date: '18 March, 2025 at 1.45pm',
+    desc: 'With reliable delivery and transparent processes, we’re helping Namibian farmers thrive while offering buyers quality products straight from the source.',
+  }
 ]
 
 export default comment_data;

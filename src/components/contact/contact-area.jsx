@@ -35,10 +35,10 @@ const ContactArea = () => {
                     </div>
                     <div className="tp-contact-info-content">
                       <p data-info="mail">
-                        <a href="mailto:contact@shofy.com">contact@shofy.com</a>
+                        <a href="mailto:farmersconnect@mail.com">farmersconnect@mail.com</a>
                       </p>
                       <p data-info="phone">
-                        <a href="tel:670-413-90-762">+670 413 90 762</a>
+                        <a href="tel:264-817-269-943">+264 817 269 943</a>
                       </p>
                     </div>
                   </div>
@@ -51,10 +51,10 @@ const ContactArea = () => {
                     <div className="tp-contact-info-content">
                       <p>
                         <a
-                          href="https://www.google.com/maps/place/New+York,+NY,+USA/@40.6976637,-74.1197638,11z/data=!3m1!4b1!4m6!3m5!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127753!4d-74.0059728!16zL20vMDJfMjg2"
+                          href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.1579795602686!2d17.07607417644426!3d-22.560847924934284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1c0b1b51d79dbef3%3A0x9e518c1eb3b0b6a0!2sNamibia%20University%20of%20Science%20and%20Technology!5e0!3m2!1sen!2sna!4v1711542891234!5m2!1sen!2sna"
                           target="_blank"
                         >
-                          84 sleepy hollow st. <br /> jamaica, New York 1432
+                          13 Jackson Kaujeua St. <br /> Windhoek, Namibia, New York 1432
                         </a>
                       </p>
                     </div>

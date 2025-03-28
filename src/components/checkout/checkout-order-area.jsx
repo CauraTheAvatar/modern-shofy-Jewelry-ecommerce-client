@@ -60,7 +60,7 @@ const CheckoutOrderArea = ({ checkoutData }) => {
                   onClick={() => handleShippingCost(60)}
                   htmlFor="flat_shipping"
                 >
-                  Delivery: Today Cost :<span>$60.00</span>
+                  Delivery: Today Cost :<span>N$70.00</span>
                 </label>
                 <ErrorMsg msg={errors?.shippingOption?.message} />
               </span>
@@ -77,7 +77,7 @@ const CheckoutOrderArea = ({ checkoutData }) => {
                   onClick={() => handleShippingCost(20)}
                   htmlFor="flat_rate"
                 >
-                  Delivery: 7 Days Cost: <span>$20.00</span>
+                  Delivery: 7 Days Cost: <span>N$50.00</span>
                 </label>
                 <ErrorMsg msg={errors?.shippingOption?.message} />
               </span>

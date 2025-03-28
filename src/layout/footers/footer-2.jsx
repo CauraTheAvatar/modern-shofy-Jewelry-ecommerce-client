@@ -4,7 +4,7 @@ import Link from 'next/link';
 // internal
 import social_data from '@/data/social-data';
 import { Email, Location } from '@/svg';
-import logo from '@assets/img/logo/logo.svg';
+import logo from '@assets/img/logo/Secondary_Logo_45x45.png';
 import pay from '@assets/img/footer/footer-pay.png';
 
 const FooterTwo = () => {
@@ -25,7 +25,7 @@ const FooterTwo = () => {
                     <div className="tp-footer-widget-content">
                       <div className="tp-footer-talk mb-20">
                         <span>Got Questions? Call us</span>
-                        <h4><a href="tel:670-413-90-762">+670 413 90 762</a></h4>
+                        <h4><a href="tel:+264 817 269 943">+264 817 269 943</a></h4>
                       </div>
                       <div className="tp-footer-contact">
                         <div className="tp-footer-contact-item d-flex align-items-start">
@@ -35,7 +35,7 @@ const FooterTwo = () => {
                             </span>
                           </div>
                           <div className="tp-footer-contact-content">
-                            <p><a href="mailto:shofy@support.com"></a></p>
+                            <p><a href="mailto:farmersconnect@mail.com"></a></p>
                           </div>
                         </div>
                         <div className="tp-footer-contact-item d-flex align-items-start">
@@ -45,7 +45,7 @@ const FooterTwo = () => {
                             </span>
                           </div>
                           <div className="tp-footer-contact-content">
-                            <p><a href="https://www.google.com/maps/place/Sleepy+Hollow+Rd,+Gouverneur,+NY+13642,+USA/@44.3304966,-75.4552367,17z/data=!3m1!4b1!4m6!3m5!1s0x4cccddac8972c5eb:0x56286024afff537a!8m2!3d44.3304928!4d-75.453048!16s%2Fg%2F1tdsjdj4" target="_blank">79 Sleepy Hollow St. <br /> Jamaica, New York 1432</a></p>
+                            <p><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.1579795602686!2d17.07607417644426!3d-22.560847924934284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1c0b1b51d79dbef3%3A0x9e518c1eb3b0b6a0!2sNamibia%20University%20of%20Science%20and%20Technology!5e0!3m2!1sen!2sna!4v1711542891234!5m2!1sen!2sna" target="_blank">13 Jackson Kaujeua St. <br /> Windhoek, Namibia</a></p>
                           </div>
                         </div>
                       </div>
@@ -59,7 +59,7 @@ const FooterTwo = () => {
                       <ul>
                         <li><a href="#">Track Orders</a></li>
                         <li><a href="#">Shipping</a></li>
-                        <li><a href="#">Wishlist</a></li>
+                        <li><a href="#">Farmers Listing</a></li>
                         <li><a href="#">My Account</a></li>
                         <li><a href="#">Order History</a></li>
                         <li><a href="#">Returns</a></li>

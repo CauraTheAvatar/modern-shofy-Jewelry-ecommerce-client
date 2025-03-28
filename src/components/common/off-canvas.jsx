@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 // internal
 import { CloseTwo } from '@/svg';
-import logo from '@assets/img/logo/logo.svg';
+import logo from '@assets/img/logo/Secondary_Logo_45x45.png';
 import contact_img from '@assets/img/icon/contact.png';
 import language_img from '@assets/img/icon/language-flag.png';
 import MobileCategory from '@/layout/headers/header-com/mobile-category';
@@ -64,7 +64,7 @@ const OffCanvas = ({ isOffCanvasOpen, setIsCanvasOpen,categoryType = "electronic
               </div>
               <div className="offcanvas__contact-content">
                 <h3 className="offcanvas__contact-title">
-                  <a href="tel:098-852-987">004524865</a>
+                  <a href="tel:+264-81-726-9943">+264 817 269 943</a>
                 </h3>
               </div>
             </div>

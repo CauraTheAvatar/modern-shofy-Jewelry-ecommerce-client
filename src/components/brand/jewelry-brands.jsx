@@ -3,13 +3,13 @@ import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';
 // internal
-import logo_1 from '@assets/img/brand/logo_01.png';
-import logo_2 from '@assets/img/brand/logo_02.png';
-import logo_3 from '@assets/img/brand/logo_03.png';
-import logo_4 from '@assets/img/brand/logo_04.png';
-import logo_5 from '@assets/img/brand/logo_05.png';
-import logo_6 from '@assets/img/brand/logo_02.png';
-import logo_7 from '@assets/img/brand/logo_04.png';
+import logo_1 from '@assets/img/brand/bloom-agri_resized.jpg';
+import logo_2 from '@assets/img/brand/chiccos-chicken-resized.jpg';
+import logo_3 from '@assets/img/brand/Namibian_flag_resized.png';
+import logo_4 from '@assets/img/brand/eembeke-oil-resized.png';
+import logo_5 from '@assets/img/brand/tameka-nutrition_resized.jpg';
+import logo_6 from '@assets/img/brand/ministry-agriculture-resized.png';
+import logo_7 from '@assets/img/brand/bloom-agri_resized.jpg';
 import { ArrowNextSm, ArrowPrevSm } from '@/svg';
 
 // brand data 

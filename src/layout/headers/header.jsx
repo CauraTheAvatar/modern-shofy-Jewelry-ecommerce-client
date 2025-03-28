@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 // internal
 import Menus from "./header-com/menus";
 import useSticky from "@/hooks/use-sticky";
-import logo from "@assets/img/logo/logo.svg";
+import logo from "@assets/img/logo/Primary_Logo_145x45.png";
 import useCartInfo from "@/hooks/use-cart-info";
 import OffCanvas from "@/components/common/off-canvas";
 import { openCartMini } from "@/redux/features/cartSlice";
@@ -36,7 +36,7 @@ const Header = () => {
                     <span>
                       <ShippingCar />
                     </span>
-                    <p>FREE Express Shipping On Orders $570+</p>
+                    <p>FREE Express Shipping On Orders N$500+</p>
                   </div>
                 </div>
                 <div className="col-md-6">
@@ -111,7 +111,7 @@ const Header = () => {
                       <div className="tp-header-contact-content">
                         <h5>Hotline:</h5>
                         <p>
-                          <a href="tel:966-595-035-008">+(966) 595 035 008</a>
+                          <a href="tel:966-595-035-008">+(264) 817 269 943</a>
                         </p>
                       </div>
                     </div>

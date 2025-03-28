@@ -49,7 +49,7 @@ const SingleOrder = ({ params }) => {
                         <div className="col-md-4 col-sm-6">
                           <div className="invoice__left">
                             <Image src={logo} alt="logo" />
-                            <p>2879 Elk Creek Road <br /> Stone Mountain, Georgia </p>
+                            <p>13 Jackson Kaujeua Street <br /> Windhoek, Namibia </p>
                           </div>
                         </div>
                         <div className="col-md-8 col-sm-6">

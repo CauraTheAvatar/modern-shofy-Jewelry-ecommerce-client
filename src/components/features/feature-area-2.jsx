@@ -4,18 +4,18 @@ import { Delivery, Discount, Refund, Support } from '@/svg';
 export const feature_data = [
   {
     icon: <Delivery />,
-    title: 'Free Delivery',
+    title: 'Logistics Support',
     subtitle: 'Orders from all item'
   },
   {
     icon: <Refund />,
-    title: 'Return & Refund',
-    subtitle: 'Money back guarantee'
+    title: 'Supplier Selection',
+    subtitle: 'Supplier information for returning customers'
   },
   {
     icon: <Discount />,
     title: 'Member Discount',
-    subtitle: 'Onevery order over $140.00'
+    subtitle: 'On every order over N$500.00'
   },
   {
     icon: <Support />,

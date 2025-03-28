@@ -9,10 +9,10 @@ import ErrorMsg from "@/components/common/error-msg";
 import ProductItem from "@/components/products/electronics/product-item";
 
 // internal
-import insta_1 from '@assets/img/instagram/4/instagram-1.jpg';
-import insta_3 from '@assets/img/instagram/4/instagram-3.jpg';
-import insta_4 from '@assets/img/instagram/4/instagram-4.jpg';
-import insta_6 from '@assets/img/instagram/4/instagram-6.jpg';
+import insta_1 from '@assets/img/instagram/4/agriculture-1846358_resized.jpg';
+import insta_3 from '@assets/img/instagram/4/cow-961790_resized.jpg';
+import insta_4 from '@assets/img/instagram/4/duck_resized.jpg';
+import insta_6 from '@assets/img/instagram/4/pomegranate_resized.png';
 
 // instagram data 
 const instagram_data = [

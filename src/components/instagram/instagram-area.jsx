@@ -1,11 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
 // internal
-import ins_1 from '@assets/img/instagram/instagram-1.jpg';
-import ins_2 from '@assets/img/instagram/instagram-2.jpg';
-import ins_3 from '@assets/img/instagram/instagram-3.jpg';
-import ins_4 from '@assets/img/instagram/instagram-4.jpg';
-import ins_5 from '@assets/img/instagram/instagram-5.jpg';
+import ins_1 from '@assets/img/instagram/eggs-close.jpg';
+import ins_2 from '@assets/img/instagram/red-4306028.jpg';
+import ins_3 from '@assets/img/instagram/compost.jpg';
+import ins_4 from '@assets/img/instagram/pearl-millet-204098.jpg';
+import ins_5 from '@assets/img/instagram/rabbit.png';
 
 // instagram data 
 const instagram_data = [

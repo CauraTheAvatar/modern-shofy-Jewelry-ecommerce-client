@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import Link from 'next/link';
 // internal
 import Menus from './header-com/menus';
-import logo from '@assets/img/logo/logo.svg';
+import logo from '@assets/img/logo/Secondary_Logo_45x45.png';
 import useSticky from '@/hooks/use-sticky';
 import useCartInfo from '@/hooks/use-cart-info';
 import { openCartMini } from '@/redux/features/cartSlice';
@@ -41,7 +41,7 @@ const HeaderTwo = ({ style_2 = false }) => {
                       <a href="tel:402-763-282-46">
                         <span>
                           <PhoneTwo />
-                        </span> +(966) 595 035 008
+                        </span> +(264) 817 269 943
                       </a>
                     </div>
                   </div>

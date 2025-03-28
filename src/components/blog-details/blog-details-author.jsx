@@ -18,12 +18,13 @@ const BlogDetailsAuthor = () => {
       <div className="tp-postbox-details-author-content">
         <span>Written by</span>
         <h5 className="tp-postbox-details-author-title">
-          <a href="#">Theodore Handle</a>
+          <a href="#">Selma Shikongo</a>
         </h5>
         <p>
-          By defining and following internal and external processes, your team
-          will have clarity on resources to attract and retain customers for
-          your business.
+          By defining and following streamlined processes from farm to table, 
+          our team ensures that Namibian small-scale farmers can efficiently deliver fresh, 
+          quality produce to both local and international buyers. 
+          This approach not only enhances customer satisfaction but also empowers farmers to thrive in competitive markets.
         </p>
 
         <div className="tp-postbox-details-author-social">

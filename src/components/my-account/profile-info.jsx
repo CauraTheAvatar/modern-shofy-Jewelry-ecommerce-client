@@ -78,7 +78,7 @@ const ProfileInfo = () => {
             <div className="col-xxl-12">
               <div className="profile__input-box">
                 <div className="profile__input">
-                  <input {...register("phone", { required: true })} name='phone' type="text" placeholder="Enter your number" defaultValue="0123 456 7889" />
+                  <input {...register("phone", { required: true })} name='phone' type="text" placeholder="Enter your number" defaultValue="081 000 0000" />
                   <span>
                     <PhoneThree/>
                   </span>
@@ -90,7 +90,7 @@ const ProfileInfo = () => {
             <div className="col-xxl-12">
               <div className="profile__input-box">
                 <div className="profile__input">
-                  <input {...register("address", { required: true })} name='address' type="text" placeholder="Enter your address" defaultValue="3304 Randall Drive" />
+                  <input {...register("address", { required: true })} name='address' type="text" placeholder="Enter your address" defaultValue="Sturrock Street, Windhoek North" />
                   <span>
                     <LocationTwo/>
                   </span>

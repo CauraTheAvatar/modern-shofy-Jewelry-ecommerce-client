@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from 'next/image';
 // internal
-import insta_1 from '@assets/img/instagram/4/instagram-1.jpg';
-import insta_2 from '@assets/img/instagram/4/instagram-2.jpg';
-import insta_3 from '@assets/img/instagram/4/instagram-3.jpg';
-import insta_4 from '@assets/img/instagram/4/instagram-4.jpg';
-import insta_5 from '@assets/img/instagram/4/instagram-5.jpg';
-import insta_6 from '@assets/img/instagram/4/instagram-6.jpg';
+import insta_1 from '@assets/img/instagram/4/compost.jpg';
+import insta_2 from '@assets/img/instagram/4/hens-7416392.jpg';
+import insta_3 from '@assets/img/instagram/4/pearl-millet-proper-size.jpg';
+import insta_4 from '@assets/img/instagram/4/strawberries.jpg';
+import insta_5 from '@assets/img/instagram/4/rabbit.png';
+import insta_6 from '@assets/img/instagram/4/marula-proper-size.jpg';
 
 // instagram data 
 const instagram_data = [
@@ -27,7 +27,7 @@ const InstagramAreaFour = () => {
             <div className="col-xl-12">
               <div className="tp-section-title-wrapper-4 mb-50 text-center">
                 <h3 className="tp-section-title-4">Trends on image feed</h3>
-                <p>After many months design and development of a modern online retailer</p>
+                <p>After many months design and development of a modern online farm-fresh produce market</p>
               </div>
             </div>
           </div>

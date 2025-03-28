@@ -8,8 +8,8 @@ const SectionTitle = () => {
           <div className="row">
             <div className="col-xl-8">
               <div className="tp-section-title-wrapper-7">
-                <span className="tp-section-title-pre-7">Blog Standard</span>
-                <h3 className="tp-section-title-7">Insight and advice <br /> From our Expert team.</h3>
+              <span className="tp-section-title-pre-7">Farmers Connect Insights</span>
+              <h3 className="tp-section-title-7">Expert Tips & Market Trends <br /> Straight from Namibian Farmers.</h3>
               </div>
             </div>
           </div>

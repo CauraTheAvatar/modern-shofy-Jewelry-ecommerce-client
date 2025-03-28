@@ -86,7 +86,7 @@ const DetailsWrapper = ({ productItem, handleImageActive, activeImg, detailsBott
       {/* variations */}
       {imageURLs.some(item => item?.color && item?.color?.name) && <div className="tp-product-details-variation">
         <div className="tp-product-details-variation-item">
-          <h4 className="tp-product-details-variation-title">Color :</h4>
+          <h4 className="tp-product-details-variation-title">Colour :</h4>
           <div className="tp-product-details-variation-list">
             {imageURLs.map((item, i) => (
               <button onClick={() => handleImageActive(item)} key={i} type="button"

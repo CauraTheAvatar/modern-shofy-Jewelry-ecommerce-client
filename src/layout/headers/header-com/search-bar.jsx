@@ -10,7 +10,7 @@ const SearchBar = ({ isSearchOpen, setIsSearchOpen }) => {
     setCategory(value);
   };
 
-  const categories = ["electronics", "fashion", "beauty", "jewelry"];
+  const categories = ["produce", "livestock products", "post-harvest", "craft products"];
   return (
     <>
       <section

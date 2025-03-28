@@ -34,18 +34,18 @@ const BlogDetailsArea = ({blog}) => {
           <div className="col-xl-9 col-lg-8">
             <div className="tp-postbox-details-main-wrapper">
               <div className="tp-postbox-details-content">
-                <p className="tp-dropcap">sales process is critically important to the success of your reps and your business. If you have never seen a really skilled salesperson work, it seems almost effortless. They ask great questions, craftt perfect proposal, answer questions, address concerns and seamlessly seal the Underneath the surface of all of that, the salesperson has probably dedicated hours honing their craft and ensuring the process moves smoothly.</p>
+                <p className="tp-dropcap">At our core, we believe in empowering Namibian small-scale farmers by connecting them to both local and international buyers. Our team—Moses, Conceicao, Gareth, and Theodore—works tirelessly to bring you the freshest produce, natural oils, and eco-friendly products straight from the source. Every purchase supports sustainable farming and strengthens our agricultural communities.</p>
 
-                <p>One of the challenges that often surfaces when  working with a remote sales team is a lack of transparency over what is happening, and where in the process things are taking place. We’re going to peel back the curtain and show you how to create the best sales.</p>
+                <p>From nutrient-rich compost to locally produced marula oil, we take pride in showcasing the finest farm products. With transparent processes and farmer-first initiatives, we aim to bridge the gap between producers and consumers, ensuring fair trade and superior quality.</p>
 
-                <h4 className="tp-postbox-details-heading">Breaking Up With Fast Fashion Has Been Easier</h4>
-                <p>Lommodo ligula eget dolor. Aenean massa. Cum sociis que penatibus magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque euro, pretium, sem. Nulla onsequat massa quis enim. donec pede justo fringilla vel aliquet.</p>
+                <h4 className="tp-postbox-details-heading">From Farm to Table: The Journey of Namibian Fresh Produce</h4>
+                <p>Namibia’s fresh produce journey begins at farms like <strong>!Aimab Superfarm</strong>, where over 90 experts ensure cattle health and milk quality. Raw materials are carefully transported to Windhoek’s Avis Plant for processing, guaranteeing quality at every step. For small-scale horticulture farmers, initiatives like WFP’s virtual marketplace now connect over 100 producers to reliable buyers, reducing post-harvest losses and fostering economic growth.</p>
 
                 <div className="tp-postbox-details-desc-thumb text-center">
-                  <Image src={blog_details_sm_img} alt="details-sm-img" />
-                  <span className="tp-postbox-details-desc-thumb-caption">Gucci’s Women’s Cruise Collection 2023 Lookbook Has Arrived</span>
+                  <Image src={blog_details_sm_img} alt="Aerial view of Namibia Dairies’!Aimab Superfarm" />
+                  <span className="tp-postbox-details-desc-thumb-caption">Aerial view of Namibia Dairies’!Aimab Superfarm in Mariental</span>
                 </div>
-                <p>“We’re so glad we’ll be working with you to get your new marketing strategy up and running. I have attached the details of your package. Next you’ll get an email from Jen to schedule your kick-off meeting and be assigned your account rep. During your kick-off meeting, we will introduce your project team, let you know what access we need to start.” </p>
+                <p>“Our platform simplifies the process—whether you're sourcing organic grains, traditional indigenous foods, or fresh vegetables, we deliver authentic Namibian agricultural products straight to your doorstep. By partnering with local farmers, we ensure that every purchase supports their livelihoods and brings you high-quality, sustainable products.” </p>
 
                 <div className="tp-postbox-details-quote">
                   <blockquote>
@@ -53,22 +53,22 @@ const BlogDetailsArea = ({blog}) => {
                       <Image className="tp-postbox-details-quote-shape-1" src={shape_line} alt="shape" />
                       <Image className="tp-postbox-details-quote-shape-2" src={shape_line_2} alt="shape" />
                     </div>
-                    <p>There is a way out of every box, a solution to every puzzle its just a matter of finding it.</p>
-                    <cite>Shahnewaz Sakil</cite>
+                    <p>"Every seed planted today is a step toward a healthier, more sustainable tomorrow."</p>
+                    <cite>The Team at Namibia Farmers Connect</cite>
                   </blockquote>
                 </div>
 
-                <h4 className="tp-postbox-details-heading">Exploring the English Countryside</h4>
-                <p>Lorem ligula eget dolor. Aenean massa. Cum sociis que penatibus et magnis dis parturient montes lorem,nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque euro, pretium quis, sem. Nulla onsequat massa quis enim.</p>
+                <h4 className="tp-postbox-details-heading">What Sets Us Apart?</h4>
+                <p>We go beyond just selling farm products—our platform provides educational resources and insights straight from the farmers themselves. Learn about sustainable agriculture, the benefits of indigenous superfoods, and how your choices impact local communities.</p>
 
                 <div className="tp-postbox-details-list">
                   <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>At vero eos et accusamus et iusto odio.</li>
-                    <li>Excepteur sint occaecat cupidatat non proident.</li>
+                    <li>Access fresh, locally sourced produce directly from Namibian farms.</li>
+                    <li>Support small-scale farmers and sustainable agricultural practices.</li>
+                    <li>Discover unique products like marula oil and organic compost.</li>
                   </ul>
                 </div>
-                <p>Rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer cidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae lorem.</p>
+                <p>With every purchase, you become a part of the movement to sustain local farms and deliver natural, quality products worldwide. Join us on the journey from farm to table — one harvest at a time.</p>
 
                 <div className="tp-postbox-details-share-wrapper">
                   <div className="row">

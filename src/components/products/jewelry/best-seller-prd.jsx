@@ -39,7 +39,7 @@ const slider_setting = {
 
 const BestSellerPrd = () => {
   const { data: products, isError, isLoading } =
-    useGetProductTypeQuery({ type: 'jewelry', query: `topSeller=true` });
+    useGetProductTypeQuery({ type: 'produce', query: `topSeller=true` });
   // decide what to render
   let content = null;
 
@@ -75,8 +75,8 @@ const BestSellerPrd = () => {
             <div className="row">
               <div className="col-xl-12">
                   <div className="tp-section-title-wrapper-4 mb-50 text-center">
-                    <span className="tp-section-title-pre-4">Best Seller This Week’s</span>
-                    <h3 className="tp-section-title-4">Top Sellers In Dress for You</h3>
+                    <span className="tp-section-title-pre-4">Best Seller: This Week’s</span>
+                    <h3 className="tp-section-title-4">Top Sellers - From Otjozondujpa to You</h3>
                   </div>
               </div>
             </div>

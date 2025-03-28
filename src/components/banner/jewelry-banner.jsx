@@ -2,33 +2,36 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Slider from 'react-slick';
 // internal
-import slider_img_1 from '@assets/img/slider/4/slider-1.png';
-import slider_img_2 from '@assets/img/slider/4/slider-2.png';
-import slider_img_3 from '@assets/img/slider/4/slider-3.png';
-import slider_img_4 from '@assets/img/slider/4/slider-4.png';
+import slider_img_1 from '@assets/img/slider/4/spinach_resized.jpg';
+import slider_img_2 from '@assets/img/slider/4/compost_resized.jpg';
+import slider_img_3 from '@assets/img/slider/4/baobab_resized.jpeg';
+import slider_img_4 from '@assets/img/slider/4/essential-oil-5982237_resized.jpg';
+
 // nav icon
-import nav_icon_1 from '@assets/img/slider/4/nav/icon-1.png';
-import nav_icon_2 from '@assets/img/slider/4/nav/icon-2.png';
-import nav_icon_3 from '@assets/img/slider/4/nav/icon-3.png';
-import nav_icon_4 from '@assets/img/slider/4/nav/icon-4.png';
+import nav_icon_1 from '@assets/img/slider/4/nav/funding_49x49.png';
+import nav_icon_2 from '@assets/img/slider/4/nav/fertilizer_resized.png';
+import nav_icon_3 from '@assets/img/slider/4/nav/wholegrain_49x49.png';
+import nav_icon_4 from '@assets/img/slider/4/nav/oil_bottle_49x49.png';
+
+
 import { ArrowNextTwo, ArrowPrevTwo, Pause, Play } from '@/svg';
 import text_shape from '@assets/img/slider/4/shape/rounded-test.png';
 import Link from 'next/link';
 
 // slider data 
 const slider_data = [
-  { subtitle: 'The original', title: 'Shine bright', img: slider_img_1 },
-  { subtitle: 'The original', title: 'Creative Design', img: slider_img_2 },
-  { subtitle: 'The original', title: 'Gold Plateted', img: slider_img_3 },
-  { subtitle: 'The original', title: 'Unique shapes', img: slider_img_4 },
+  { subtitle: 'Fresh Produce', title: 'Farm Fresh Goodness', img: slider_img_1 },
+  { subtitle: 'Organic Compost', title: 'Feed Your Garden Naturally', img: slider_img_2 },
+  { subtitle: 'Wholesome Grains', title: 'Nature’s Bounty', img: slider_img_3 },
+  { subtitle: 'Pure Oils', title: 'Nourish Your Life', img: slider_img_4 },
 ]
 
 // slider nav data
 const slider_nav_data = [
-  { icon: nav_icon_1, title: <>Ring <br />& Earring</> },
-  { icon: nav_icon_2, title: <>Bangles & <br />Bracelets</> },
-  { icon: nav_icon_3, title: <>Drop <br /> Necklaces</> },
-  { icon: nav_icon_4, title: <>Diamond <br /> Necklaces</> },
+  { icon: nav_icon_1, title: <>Farm Fresh <br />Produce</> },
+  { icon: nav_icon_2, title: <>Organic <br />Compost</> },
+  { icon: nav_icon_3, title: <>Wholesome <br />Grains</> },
+  { icon: nav_icon_4, title: <>Pure <br />Oils</> },
 ]
 
 const JewelryBanner = () => {
@@ -114,7 +117,7 @@ const JewelryBanner = () => {
                       <span>{item.subtitle}</span>
                       <h3 className="tp-slider-title-4">{item.title}</h3>
                       <div className="tp-slider-btn-4">
-                        <Link href="/shop" className="tp-btn tp-btn-border tp-btn-border-white">Discover Now</Link>
+                        <Link href="/shop" className="tp-btn tp-btn-border tp-btn-border-white">Explore More</Link>
                       </div>
                     </div>
                   </div>
